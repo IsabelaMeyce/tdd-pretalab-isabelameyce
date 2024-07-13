@@ -5,19 +5,19 @@ class Queue {
   }
   
   size() {
-    return this.elements.length;
+    return this.elements.length
   }
 
   enqueue(item) {
-    this.elements.push(item);
+    this.elements.push(item)
   }
 
   dequeue() {
-    return this.elements.shift();
+    return this.elements.shift()
   }
 
   peek() {
-    return this.elements[0];
+    return this.elements[0]
   }
 }
 
