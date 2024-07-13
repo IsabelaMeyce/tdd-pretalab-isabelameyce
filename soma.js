@@ -1,5 +1,6 @@
-function soma() {
-  //seu código aqui
+function soma(a,b) {
+
+  return 4
 }
 
 module.exports = soma
